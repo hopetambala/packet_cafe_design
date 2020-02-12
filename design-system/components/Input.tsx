@@ -1,6 +1,6 @@
-import * as React from "react"
-import { theme } from "../theme"
-import styled from "styled-components"
+import * as React from "react";
+import { theme } from "../theme";
+import styled from "styled-components";
 
 // Types
 export type Props = {
