@@ -11,6 +11,7 @@
 	},
 	"version": "1.0.0",
 	"dependencies": {
+		"@framer/benjamin.icon-generator": "^1.20.0",
 		"styled-components": "^4.2.0"
 	},
 	"framer": {
