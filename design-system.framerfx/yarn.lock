@@ -215,6 +215,14 @@
   resolved "https://registry.framer.com/@framer/edoardo.web-ui-kit/-/@framer/edoardo.web-ui-kit-1.1.0.tgz#56fa16a49df31db8a53ad8b2469b0c27d64cd2ed"
   integrity sha512-jycIinG+0OLIGcu2uxB3HRNDh6DrQ4h6fsArkPFF6L32H++AyBE60Yxh2H95TA8IYdTisc9ZZ9AqfAmxeSq9kg==
 
+"@framer/tishogeorgiev.switch@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.framer.com/@framer/tishogeorgiev.switch/-/@framer/tishogeorgiev.switch-1.14.0.tgz#664d2a0655f6cb668d942f456263064fd21a7c5f"
+  integrity sha512-mLdMV4b6y2m8GXmxBXBEdHUQ6pvS3U8xGuk/1b+8BJCQPNnOteZOTDvdEPh69yALESxr24EzqKMqa/4w9xdl2g==
+  dependencies:
+    hotkeys-js "^3.7.3"
+    reactn "^2.2.4"
+
 "@material-ui/core@4.4.3":
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.4.3.tgz#65665d2c4e9cb84e018774e1471f6d0417f4535e"
@@ -497,6 +505,11 @@ hoist-non-react-statics@^3.2.1:
   dependencies:
     react-is "^16.7.0"
 
+hotkeys-js@^3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-3.7.3.tgz#f0c718166e844b3e52065d1b60cffaa6065b5183"
+  integrity sha512-CSaeVPAKEEYNexYR35znMJnCqoofk7oqG/AOOqWow1qDT0Yxy+g+Y8Hs/LhGlsZaSJ7973YN6/N41LAr3t30QQ==
+
 hyphenate-style-name@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"
@@ -718,6 +731,13 @@ react-transition-group@^4.3.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+reactn@^2.2.4:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/reactn/-/reactn-2.2.6.tgz#73128a8a95845e0bf6478674be5c7e9193d46a0f"
+  integrity sha512-xYE6agye3WVetZdYY8cUWDLnAIV/z/74lUDc8TPd3UobQGKTvwH3Z6or6+Whart6uwb6ml1MhCHv9e5ipLx3MQ==
+  dependencies:
+    use-force-update "^1.0.5"
+
 regenerator-runtime@^0.13.2:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
@@ -858,6 +878,11 @@ universalify@^0.1.0, universalify@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
+
+use-force-update@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/use-force-update/-/use-force-update-1.0.7.tgz#f5e672633f5a398b25c33b2287150918bcb3526b"
+  integrity sha512-k5dppYhO+I5X/cd7ildbrzeMZJkWwdAh5adaIk0qKN2euh7J0h2GBGBcB4QZ385eyHHnp7LIygvebdRx3XKdwA==
 
 warning@^4.0.3:
   version "4.0.3"
