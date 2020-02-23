@@ -12,6 +12,7 @@
 	"version": "1.0.0",
 	"dependencies": {
 		"@framer/benjamin.icon-generator": "^1.20.0",
+		"@framer/bzone.ant-design-ui-kit": "^1.6.0",
 		"@framer/charliewilliams.framer-base-kit": "^1.0.0",
 		"@framer/edoardo.web-ui-kit": "^1.1.0",
 		"@framer/tishogeorgiev.switch": "^1.14.0",
