@@ -23,3 +23,17 @@ From here, you can continue modifying the existing [`design-system.framerfx`](/d
 ## Resources
 
 [Framer Bridge Starter](https://github.com/framer/framer-bridge-starter-kit)
+
+
+## Troubleshooting
+
+Run
+```
+npx framer-cli help
+```
+
+Then
+
+```
+npx framer-cli authenticate
+```
