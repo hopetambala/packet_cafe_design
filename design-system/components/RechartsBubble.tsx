@@ -5,8 +5,15 @@ import {
 
 const data01 = [
   { x: 1, y: 20, z: 200 }, { x: 120, y: 10, z: 260 },
-  { x: 2, y: 30, z: 400 }, { x: 140, y: 25, z: 280 },
+  { x: 2, y: 30, z: 400 }, { x: 140, y: 25, z: 400 },
   { x: 2, y: 40, z: 500 }, { x: 110, y: 28, z: 200 },
+  { x: 200, y: 20, z: 200 }, { x: 120, y: 10, z: 260 },
+  { x: 300, y: 30, z: 400 }, { x: 20, y: 25, z: 280 },
+  { x: 400, y: 40, z: 500 }, { x: 110, y: 28, z: 200 },
+  { x: 200, y: 20, z: 1000 }, { x: 1000, y: 10, z: 260 },
+  { x: 1200, y: 20, z: 1000 }, { x: 1400, y: 20, z: 260 },
+  { x: 300, y: 30, z: 200 }, { x: 2000, y: 25, z: 280 },
+  { x: 400, y: 40, z: 100 }, { x: 1500, y: 28, z: 200 },
 ];
 const data02 = [
   { x: 200, y: 26, z: 240 }, { x: 240, y: 290, z: 220 },
@@ -32,14 +39,14 @@ export const RechartsBubble: React.FC<Props> = ({
 
   >
     <CartesianGrid />
-    <XAxis type="number" dataKey="x" name="Session ID" unit="" >
-      <Label value="Session Id" offset={0} position="insideBottom" />
+    <XAxis type="number" dataKey="x" name="sessions" unit="" >
+      <Label value="Number of Sessions" offset={0} position="insideBottom" />
     </XAxis>
     <YAxis type="number" dataKey="y" name="duration" unit=" mins" >
       <Label offset={0} angle={90} position="left" />
     </YAxis>
     <ZAxis type="number" dataKey="z" range={[60, 400]} unit="bytes" >
-      <Label value="Packet Size" offset={0} position="top" />
+      <Label value="Packet Size (Bytes)" offset={0} position="top" />
     </ZAxis>
     <Tooltip cursor={{ strokeDasharray: '3 3' }} />
     <Legend />

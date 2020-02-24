@@ -25,23 +25,23 @@ var trace = {
   dimensions: [{
     range: [1, 5],
     constraintrange: [1, 2],
-    label: 'A',
-    values: [1,4]
+    label: 'Source IP',
+    values: [1,4,2]
   }, {    
-    range: [1,5],
-    label: 'B',
-    values: [3,1.5],
-    tickvals: [1.5,3,4.5]
+    range: [1,100],
+    label: 'Source Port',
+    values: [3,1.5,40],
+    // tickvals: [1.5,3,4.5]
+  }, {
+    range: [1, 100],
+    label: 'Destination Port',
+    values: [2,4,80],
+    // tickvals: [1,2,4,5],
+    // ticktext: ['text 1','text 2','text 4','text 5']
   }, {
     range: [1, 5],
-    label: 'C',
-    values: [2,4],
-    tickvals: [1,2,4,5],
-    ticktext: ['text 1','text 2','text 4','text 5']
-  }, {
-    range: [1, 5],
-    label: 'D',
-    values: [4,2]
+    label: 'Destination IP Address',
+    values: [4,2,3]
   }]
 };
 

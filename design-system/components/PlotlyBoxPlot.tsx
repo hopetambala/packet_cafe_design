@@ -16,11 +16,12 @@ export type Props = {
   kind?: "default" | "primary" | "danger"
 }
 
-var x = ['day 1', 'day 1', 'day 1', 'day 1', 'day 1', 'day 1',
-         'day 2', 'day 2', 'day 2', 'day 2', 'day 2', 'day 2']
+var x = ['Port 80', 'Port 80', 'Port 80', 'Port 80', 'Port 80', 'Port 80',
+         'Port 55', 'Port 55', 'Port 55', 'Port 55', 'Port 55', 'Port 55',
+         'Port 88', 'Port 88', 'Port 88', 'Port 88', 'Port 88', 'Port 88']
 
 var trace1 = {
-  y: [0.2, 0.2, 0.6, 1.0, 0.5, 0.4, 0.2, 0.7, 0.9, 0.1, 0.5, 0.3],
+  y: [2000, 2000, 6000, 10000, 5000, 4000, 2000, 7000, 9000, 1000, 5000, 3000,5000, 1000, 900, 300, 400, 500],
   x: x,
   name: 'kale',
   marker: {color: '#3D9970'},
@@ -43,11 +44,11 @@ var trace3 = {
   type: 'box'
 };
 
-var data = [trace1, trace2, trace3];
+var data = [trace1];
 
 var layout = {
   yaxis: {
-    title: 'normalized moisture',
+    title: 'Packet Size',
     zeroline: false
   },
   boxmode: 'group',

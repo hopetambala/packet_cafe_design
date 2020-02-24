@@ -2,18 +2,18 @@ import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
-type Props = System.PlotlyParallelCoordinatesProps & {
+type Props = System.PlotlyStackedBarProps & {
   width: number
   height: number
 }
 
-export class PlotlyParallelCoordinates extends React.Component{
+export class PlotlyStackedBar extends React.Component{
   render() {
-    return <System.PlotlyParallelCoordinates {...this.props} />
+    return <System.PlotlyStackedBar {...this.props} />
   }
 
   static defaultProps: Props = {
-    width: 400,
+    width: 933,
     height: 300,
   }
 
