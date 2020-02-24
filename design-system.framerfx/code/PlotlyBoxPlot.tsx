@@ -2,14 +2,14 @@ import * as React from "react"
 import * as System from "../../design-system"
 import { ControlType, PropertyControls } from "framer"
 
-type Props = System.ReactVisParallelProps & {
+type Props = System.PlotlyProps & {
   width: number
   height: number
 }
 
-export class ReactVisParallel extends React.Component<Props> {
+export class PlotlyBoxPlot extends React.Component{
   render() {
-    return <System.AnimatedParallelCoordinates {...this.props} />
+    return <System.PlotlyBoxPlot {...this.props} />
   }
 
   static defaultProps: Props = {
