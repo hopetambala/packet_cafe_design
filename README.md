@@ -15,6 +15,7 @@ Inside the repository directory, you will find two key folders:
 
 - **[`design-system`](/design-system):** contains production components. Typically, this design system is consumed by multiple projects. This is where we put our React Components.
 - **[`design-system.framerfx`](/design-system.framerfx):** a [folder backed project](https://framer.gitbook.io/teams/integrations#folder-projects) that imports the components from [`design-system`](/design-system) and (optionally) adds [interface properties](https://www.framer.com/api/property-controls/) to use in Framer X.
+- **[`deployable-prototype`](/deployable-prototype):** a folder that holds an exported web preview of the project
 
 #### Editing
 
