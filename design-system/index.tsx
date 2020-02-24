@@ -3,3 +3,5 @@ export { Input, Props as InputProps } from "./components/Input"
 export { Toggle, Props as ToggleProps } from "./components/Toggle"
 export { Tooltip, Props as TooltipProps } from "./components/Tooltip"
 export { RechartsBubble, Props as RechartsBubbleProps } from "./components/RechartsBubble"
+export { AnimatedParallelCoordinates, Props as ReactVisParallelProps } from "./components/ReactVisParallel"
+

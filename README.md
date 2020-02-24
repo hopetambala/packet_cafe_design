@@ -13,8 +13,8 @@ This repository links together [folder backed Framer projects](https://www.frame
 
 Inside the repository directory, you will find two key folders:
 
-- **[`design-system`](/design-system):** contains example production components. Typically, this design system is consumed by multiple projects.
-- **[`design-system.framerfx`](/design-system.framerfx):** a [folder backed project](https://framer.gitbook.io/teams/integrations#folder-projects) that imports the components from [`design-system`](/design-system) and (optionally) adds [interface properties](https://www.framer.com/api/property-controls/) to use in Framer. This is the project that gets published to the [Framer store](https://store.framer.com).
+- **[`design-system`](/design-system):** contains production components. Typically, this design system is consumed by multiple projects. This is where we put our React Components.
+- **[`design-system.framerfx`](/design-system.framerfx):** a [folder backed project](https://framer.gitbook.io/teams/integrations#folder-projects) that imports the components from [`design-system`](/design-system) and (optionally) adds [interface properties](https://www.framer.com/api/property-controls/) to use in Framer X.
 
 #### Editing
 
