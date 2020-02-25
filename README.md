@@ -7,6 +7,8 @@ This project is built using Framer Bridge which is a suite of tools:
 
 This repository uses [folder backed Framer projects](https://www.framer.com/support/using-framer-x/folder-backed-projects/) with the [Framer CLI](https://www.npmjs.com/package/framer-cli) and [Travis CI](https://travis-ci.com/) for an easy package publication flow.
 
+![demo](resources/demo.gif)
+
 ## 🏁 Getting started
 
 1. Run `yarn` to install dependencies in the root directory
