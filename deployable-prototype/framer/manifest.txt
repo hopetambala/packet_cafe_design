@@ -56,6 +56,8 @@ node_modules/@framer/tishogeorgiev.switch/code/store/keyStore.ts
 node_modules/@framer/tishogeorgiev.switch/code/store/globalStore.ts
 node_modules/@framer/tishogeorgiev.switch/code/placeholderState.tsx
 node_modules/@framer/tishogeorgiev.switch/code/index.ts
+node_modules/@framer/tishogeorgiev.switch/code/hooks/useLongPress.ts
+node_modules/@framer/tishogeorgiev.switch/code/hooks/useDoubleTap.ts
 node_modules/@framer/tishogeorgiev.switch/code/controls.ts
 node_modules/@framer/tishogeorgiev.switch/code/canvas.tsx
 node_modules/@framer/tishogeorgiev.switch/code/actions.ts
