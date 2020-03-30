@@ -260,10 +260,10 @@
     apexcharts "^3.8.0"
     react-apexcharts "^1.3.3"
 
-"@framer/tishogeorgiev.switch@1.14.0":
-  version "1.14.0"
-  resolved "https://registry.framer.com/@framer/tishogeorgiev.switch/-/@framer/tishogeorgiev.switch-1.14.0.tgz#664d2a0655f6cb668d942f456263064fd21a7c5f"
-  integrity sha512-mLdMV4b6y2m8GXmxBXBEdHUQ6pvS3U8xGuk/1b+8BJCQPNnOteZOTDvdEPh69yALESxr24EzqKMqa/4w9xdl2g==
+"@framer/tishogeorgiev.switch@^1.14.0":
+  version "1.16.0"
+  resolved "https://registry.framer.com/@framer/tishogeorgiev.switch/-/@framer/tishogeorgiev.switch-1.16.0.tgz#fd7078ab4865554d3a40c8dbe5fffec44a7c16ec"
+  integrity sha512-Z8mn90PVEKWnNJP3oSScF14CgdTQNMSPgz0dnxHm131tg7wj2aK+g4DLOCI7LByAjsw+j8on+h0jSbBtl6w7lA==
   dependencies:
     hotkeys-js "^3.7.3"
     reactn "^2.2.4"
