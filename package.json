@@ -10,7 +10,7 @@
   "author": "Hope Tambala",
   "license": "MIT",
   "dependencies": {
-    "apexcharts": "3.15.6",
+    "apexcharts": "3.24.0",
     "highcharts": "^8.0.0",
     "highcharts-react-official": "^3.0.0",
     "plotly.js": "^1.52.2",
